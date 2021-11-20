@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"/>
+
+</head>
+<body>
+    <!-- Start Bouton  -->
+    <div class="scroll-up-btn">
+        <i class="fas fa-angle-up"></i>
+    </div>
+    <!-- End Bouton  -->
+
+    <!-- Start Barre de nav -->
+    <nav class="navbar">
+        <div class="max-width">
+            <div class="logo"><a href="#">Portfo<span>lio.</span></a></div>
+            <ul class="menu">
+                <li><a href="#accueil" class="menu-btn">Accueil</a></li>
+                <li><a href="#propos" class="menu-btn">A propos</a></li>
+                <li><a href="#competences" class="menu-btn">Compétences</a></li>
+                <li><a href="#realisations" class="menu-btn">Mes réalisations</a></li>
+                <li><a href="#contact" class="menu-btn">Contact</a></li>
+            </ul>
+            <div class="menu-btn">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+    <!-- End Barre de nav -->
+
+    <!-- Start Section Accueil -->
+    <section class="accueil" id="accueil">
+        <div class="max-width">
+            <div class="accueil-content">
+                <div class="text-1">Bonjour, je m'appelle</div>
+                <div class="text-2">Florian Juhé</div>
+                <div class="text-3">je suis <span class="typing"></span></div>
+                <a href="#propos">Découvrez-moi</a>
+            </div>
+        </div>
+    </section>
+    <!-- End Section Accueil -->
+
+    <!-- Start Section Propos -->
+    <section class="propos" id="propos">
+        <div class="max-width">
+            <h2 class="title">A Mon Propos</h2>
+            <div class="propos-content">
+                <div class="column left">
+                    <img src="images/Profile.jpg" alt="">
+                </div>
+                <div class="column right">
+                    <div class="text">Je m'appelle Florian je suis <span class="typing-2"></span></div>
+                    <p>Je suis actuellement étudiant en 2ème année d’IUT dans le domaine des Métiers du Multimédia et de l’Internet. 
+                        J’étudie les outils numériques (tel que la suite Adobe), les langages de programmation web (HTML, CSS, JavaScript, Bootstrap) 
+                        et les règles déployées dans les médias numériques et la communication. Tout ceci, dans l’optique de créer des affiches, 
+                        des identités graphiques et éditoriales, des visuels, des sites web, etc... En parallèle de cela, je suis depuis 
+                        mon plus jeune âge un passionné par les jeux-vidéos et les animés, ce qui m'a permis de développer ma créativité et mon immagination.</p>
+                    <a href="#">Voir mon CV</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Section Propos -->
+
+    <!-- Start Section Compétences -->
+    <section class="competences" id="competences">
+        <div class="max-width">
+            <h2 class="title">Mes Compétences</h2>
+            <div class="carousel owl-carousel">
+                <div class="card">
+                    <div class="box">
+                        <i class="fas fa-paint-brush"></i>
+                        <div class="text">Infographie</div>
+                        <p>PhotoShop / Illustrator / Indesign / Blender</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                        <i class="fas fa-film"></i>
+                        <div class="text">Audiovisuel</div>
+                        <p>Premiere Pro / After Effects / Audacity</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                        <i class="fas fa-code"></i>
+                        <div class="text">Web</div>
+                        <p>HTML5 / CSS3 / JS / Jquery / PHP / Bootstrap / WordPress</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                        <i class="fas fa-bullhorn"></i>
+                        <div class="text">Communication</div>
+                        <p>Communication (Orale, Ecrite, Visuelle) / 
+                            Anglais B1 </p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="box">
+                        <i class="fas fa-globe"></i>
+                        <div class="text">Divers</div>
+                        <p>Gestion de Projet / Droit / Services sur Réseaux</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Section Compétences -->
+
+    <!-- Start Section Réalisations -->
+    <section class="realisations" id="realisations">
+        <div class="max-width">
+            <h2 class="title">Mes Réalisations</h2>
+            <div class="serv-content">
+                <a class="card" href="infographie.html">
+                    <div class="box">
+                        <img src="images/ImgInfo.png" alt="">
+                        <div class="text">Infographie</div>
+                        <p>Ici on retrouvera toutes mes réalisations réalisés en Infographie durant mes 2 années scolaire.                            
+                        </p>
+                        <br><span>Cliquez pour voir</span>
+                    </div>
+                </a>
+                <a class="card" href="audiovisuel.html">
+                    <div class="box">
+                        <img src="images/imgAudio.png" alt="">
+                        <div class="text">Audiovisuel</div>
+                        <p>Ici on retrouvera toutes mes réalisations réalisés en Audiovisuel durant mes 2 années scolaire.                            
+                        </p>
+                        <br><span>Cliquez pour voir</span>
+                    </div>
+                </a>
+                <a class="card" href="personnel.html">
+                    <div class="box">
+                        <img src="images/ImgInfo.png" alt="">
+                        <div class="text">Personnel</div>
+                        <p>Ici on retrouvera différentes réalisations efféctues quelque soit le domaine.                            
+                        </p>
+                        <br><span>Cliquez pour voir</span>
+                    </div>
+                </a>
+               </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Section Compétences -->
+
+    <!-- Start Section Contact -->
+    <section class="contact" id="contact">
+        <div class="max-width">
+            <h2 class="title">Me Contacter</h2>
+            <div class="contact-content">
+                <div class="column left">
+                    <div class="text">Prenez contact avec moi</div>
+                    <p>Afin de prendre contact avec moi, remplissez le formulaire à droite. Quelques rappels me concernant : </p>
+                    <div class="icons">
+                        <div class="row">
+                            <i class="fas fa-user"></i>
+                            <div class="info">
+                                <div class="head">Nom</div>
+                                <div class="sub-title">Florian Juhé</div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div class="info">
+                                <div class="head">Addresse</div>
+                                <div class="sub-title">Elbeuf, France</div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <i class="fas fa-envelope"></i>
+                            <div class="info">
+                                <div class="head">Email</div>
+                                <div class="sub-title">florian.juhe282@gmail.com</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="column right">
+                    <div class="text">Envoyez-moi un message</div>
+                    <form action="#">
+                        <div class="fields">
+                            <div class="field name">
+                                <input type="text" placeholder="Nom" required>
+                            </div>
+                            <div class="field email">
+                                <input type="email" placeholder="Email" required>
+                            </div>
+                        </div>
+                        <div class="field">
+                            <input type="text" placeholder="Sujet" required>
+                        </div>
+                        <div class="field textarea">
+                            <textarea cols="30" rows="10" placeholder="Message.." required></textarea>
+                        </div>
+                        <div class="button-area">
+                            <button type="submit">Envoyez</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Section Contact -->
+
+    <!-- Start Footer -->
+    <footer>
+        <span>Créer par Florian Juhé | 2021.</span>
+    </footer>
+    <!-- End Footer -->
+
+    <!-- Feuille JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
