@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="audiovisuel.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
     <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
@@ -38,39 +38,73 @@
     </nav>
     <!-- End Barre de nav -->
 
-    <!-- Start Section Accueil -->
+    <!-- Start Section -->
     <section class="realisations" id="realisations">
         <div class="max-width">
-            <h2 class="title">Mes Réalisations</h2>
+            <h2 class="title">Audiovisuel</h2>
+            <div class="contenu" id="rea1">
+                <i class="fa fa-times" aria-hidden="true"></i>
+                <h1>La Chocolatine</h1>
+                <video controls="controls" width="640" height="480">
+                    <source src="Projet final.mp4">
+                </video>
+                <p><br/>Pour ce projet, je devais réaliser une bande annonce dans laquelle je présentais mon équipe.
+                    Il fallait y introduire une petite histoire de notre choix et nous sommes partis sur le thème de la Chocolatine 
+                    considéré comme étant un mot interdit.
+                    <br/>
+                    <br/>
+                    Logiciel utilisé : Premiere Pro.
+                </p>
+            </div>
+            <div class="contenu" id="rea2">
+                <i class="fa fa-times" aria-hidden="true"></i>
+                <h1>James Marlowe</h1>
+                <video controls="controls" width="640" height="480">
+                    <source src="Noir et Blanc.mp4">
+                </video>
+                <p><br/>Pour ce projet, je devais réaliser un générique de film et réaliser une scène en noir et blanc concernant un meurtre. Il fallait qu'un personnage de gente féminine
+                    apparaisse et que le détéctive aussi.
+                    <br/>
+                    <br/>
+                    Logiciel utilisé : Premiere Pro et After Effects.
+                </p>
+            </div>
+            <div class="contenu" id="rea3">
+                <i class="fa fa-times" aria-hidden="true"></i>
+                <h1>Daft Punk</h1>
+                <p><br/>Ce projet est actuellement en cours de réalisation. Veuillez revenir ulterieurement. 
+                    <br/>
+                    <br/>
+                    Logiciel utilisé : Premiere Pro.
+                </p>
+            </div>
             <div class="serv-content">
-                <a class="card" href="infographie.html">
+                <a class="card" id="b1">
                     <div class="box">
-                        <img src="images/ImgInfo.png" alt="">
-                        <div class="text">Infographie</div>
-                        <p>Ici on retrouvera toutes mes réalisations réalisés en Infographie durant mes 2 années scolaire.                            
+                        <img src="Projet 1.PNG" alt="">
+                        <div class="text">La Chocolatine</div>
+                        <p>Pour ce projet, nous devions réaliser une présentation de l'équipe et raconter une histoire.                            
                         </p>
                         <br><span>Cliquez pour voir</span>
                     </div>
                 </a>
-                <a class="card" href="audiovisuel.html">
+                <a class="card" id="b2">
                     <div class="box">
-                        <img src="images/imgAudio.png" alt="">
-                        <div class="text">Audiovisuel</div>
-                        <p>Ici on retrouvera toutes mes réalisations réalisés en Audiovisuel durant mes 2 années scolaire.                            
+                        <img src="ImgAudio.PNG" alt="">
+                        <div class="text">James Marlowe</div>
+                        <p>Pour ce projet, nous devions réaliser une scène d'un film en noir et blanc.                           
                         </p>
                         <br><span>Cliquez pour voir</span>
                     </div>
                 </a>
-                <a class="card" href="personnel.html">
+                <a class="card" id="b3">
                     <div class="box">
-                        <img src="images/ImgInfo.png" alt="">
-                        <div class="text">Personnel</div>
-                        <p>Ici on retrouvera différentes réalisations efféctues quelque soit le domaine.                            
+                        <img src="838_dp.jpg" alt="">
+                        <div class="text">Daft Punk</div>
+                        <p>Ce projet est à venir.                          
                         </p>
-                        <br><span>Cliquez pour voir</span>
                     </div>
                 </a>
-               </div>
             </div>
         </div>
     </section>
@@ -80,11 +114,11 @@
 
     <!-- Start Footer -->
     <footer>
-        <span>Créer par Florian Juhé | 2021.</span>
+        <span>Créé par Florian Juhé | 2021.</span>
     </footer>
     <!-- End Footer -->
 
     <!-- Feuille JavaScript -->
-    <script src="script.js"></script>
+    <script src="scriptAudio.js"></script>
 </body>
 </html>
